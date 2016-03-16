@@ -29,4 +29,3 @@ if (isMac) {
     $('#mac-windows-support').addClass('hidden');
     $('#linux-support').removeClass('hidden');
 }
-console.log(isMac);
