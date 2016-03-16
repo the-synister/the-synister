@@ -22,9 +22,9 @@ var isMac = navigator.platform.toUpperCase().indexOf('MAC')>=0;
 var isWindows = navigator.platform.toUpperCase().indexOf('WIN')>=0;
 
 if (isMac) {
-    $('#download-button').attr('href', 'https://github.com/the-synister/builds/archive/Mac.zip');
+    $('#download-button').attr('href', 'https://github.com/the-synister/synister/archive/Mac.zip');
 } else if (isWindows) {
-    $('#download-button').attr('href', 'https://github.com/the-synister/builds/archive/Windows.zip');
+    $('#download-button').attr('href', 'https://github.com/the-synister/synister/archive/Windows.zip');
 } else {
     $('#mac-windows-support').addClass('hidden');
     $('#linux-support').removeClass('hidden');
