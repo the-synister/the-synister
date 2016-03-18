@@ -22,9 +22,9 @@ var isMac = navigator.platform.toUpperCase().indexOf('MAC')>=0;
 var isWindows = navigator.platform.toUpperCase().indexOf('WIN')>=0;
 
 if (isMac) {
-    $('#download-button').attr('href', $('#download-button').attr('href') + '/Mac.zip');
+    $('#download-button').attr('href', $('#download-button').attr('href') + '/synister-Mac-1.0.2.zip');
 } else if (isWindows) {
-    $('#download-button').attr('href', $('#download-button').attr('href') + '/Windows.zip');
+    $('#download-button').attr('href', $('#download-button').attr('href') + '/synister-Win-1.0.2.exe');
 } else {
     $('#mac-windows-support').addClass('hidden');
     $('#linux-support').removeClass('hidden');
