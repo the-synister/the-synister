@@ -410,5 +410,31 @@ h3 {
     color: #ffff !important;
 }
 
+.github-interactions {
+    padding-left: 35px;
+}
+
+.github-interactions img {
+    height: 20px;
+    width: 90px;
+}
+
+#social-network-icons {
+    padding-left: 55px;
+}
+
+#social-network-icons a i {
+    font-size: 50px !important;
+    margin-right: 30px;
+    padding: 5px;
+    border: 2px outset #f0ad4e;
+
+    text-align: center;
+}
+
+#social-network-icons a i:hover {
+    font-size: larger;
+    color: #f0ad4e;
+}
 
 
